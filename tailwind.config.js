@@ -6,7 +6,14 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      dropShadow: {
+        'redDrop': '0 0 15px #EC2F2F',
+      },
+      boxShadow: {
+        'innerWhite': 'inset 0 0px 2px 0 #FFFFFF'
+      }
+    },
   },
   plugins: [],
 }
